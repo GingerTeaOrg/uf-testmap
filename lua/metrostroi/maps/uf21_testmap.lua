@@ -9,46 +9,46 @@ else
 end
 
 Metrostroi.StationConfigurations = {
-	[001] =
-	{
-		names = {"First Station"},
-		positions = {
-			{Vector(1504, -95, -14283), Angle(0, 90, 0)},
-		}
-	},
+    [001] =
+    {
+        names = { "First Station" },
+        positions = {
+            { Vector(1504, -95, -14283), Angle(0, 90, 0) },
+        }
+    },
     [002] =
-	{
-		names = {"Second Station"},
-		positions = {
-			{Vector(15344, 11184, -14283), Angle(0, 90, 0)},
-		}
-	},
+    {
+        names = { "Second Station" },
+        positions = {
+            { Vector(15344, 11184, -14283), Angle(0, 90, 0) },
+        }
+    },
     [003] =
-	{
-		names = {"Third Station"},
-		positions = {
-			{Vector(466.73, 14828, -14283), Angle(0, -90, 0)},
-		}
-	},
-    [004] = 
     {
-        names = {"Fourth Station"},
+        names = { "Third Station" },
         positions = {
-            {Vector(-15048, 1553, -14283), Angle(0, 360, 0)}
+            { Vector(466.73, 14828, -14283), Angle(0, -90, 0) },
         }
     },
-    [005] = 
+    [004] =
     {
-        names = {"Fifth Station"},
+        names = { "Fourth Station" },
         positions = {
-            {Vector(8575, -3172, -14285), Angle(0, 90, 0)}
+            { Vector(-15048, 1553, -14283), Angle(0, 360, 0) }
         }
     },
-    [006] = 
+    [005] =
     {
-        names = {"Sixth Station"},
+        names = { "Fifth Station" },
         positions = {
-            {Vector(-6433, -14616, -14283), Angle(0, -90, 0)}
+            { Vector(8575, -3172, -14285), Angle(0, 90, 0) }
+        }
+    },
+    [006] =
+    {
+        names = { "Sixth Station" },
+        positions = {
+            { Vector(-6433, -14616, -14283), Angle(0, -90, 0) }
         }
     },
 }
